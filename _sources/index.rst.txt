@@ -5,14 +5,13 @@
 
 Guia para la creación de metadatos geográficos
 ===============================================
+GeoNetwork es una aplicación para la administración de recursos referenciados espacialmente, proporciona funciones de creación, edición y búsqueda de metadatos.
 
-El catálogo de datos geográficos de APC se encuentra disponible en la siguiente dirección:
+El catálogo de metadatos geográficos de APC se encuentra disponible en la siguiente dirección:
 
 http://magrat.mine.nu:8088/geonetwork/
 
-Los colaboradores o responsables involucrados en la producción de datos geográficos tendrán que crear a partir de las plantillas existentes los metadatos correspondientes:
-Metadato del conjunto de datos.
-Metadato del catálogo de atributos.
+
 
 .. toctree::
    :maxdepth: 2
