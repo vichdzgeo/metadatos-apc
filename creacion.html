@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Creación &mdash; documentación de Metadatos - </title>
+  <title>Crear un metadato &mdash; documentación de Metadatos - </title>
   
 
   
@@ -35,7 +35,8 @@
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Índice" href="genindex.html" />
-    <link rel="search" title="Búsqueda" href="search.html" /> 
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="prev" title="Solicitud de cuenta" href="registro.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -79,11 +80,20 @@
               
             
             
-              <!-- Local TOC -->
-              <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Creación</a></li>
+              <p class="caption"><span class="caption-text">Contenido:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduccion.html">Intruducción</a></li>
+<li class="toctree-l1"><a class="reference internal" href="registro.html">Solicitud de cuenta</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Crear un metadato</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#ingreso-a-la-plataforma">Ingreso a la plataforma</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#crear-el-metadato-de-la-tabla-de-atributos">Crear el metadato de la tabla de atributos</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#atributos">Atributos</a></li>
 </ul>
-</div>
+</li>
+</ul>
+</li>
+</ul>
+
             
           
         </div>
@@ -127,7 +137,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Creación</li>
+      <li>Crear un metadato</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -146,8 +156,123 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="creacion">
-<h1>Creación<a class="headerlink" href="#creacion" title="Enlazar permanentemente con este título">¶</a></h1>
+  <div class="section" id="crear-un-metadato">
+<h1>Crear un metadato<a class="headerlink" href="#crear-un-metadato" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="ingreso-a-la-plataforma">
+<h2>Ingreso a la plataforma<a class="headerlink" href="#ingreso-a-la-plataforma" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>liga o url de la plataforma:</p>
+<p><a class="reference external" href="http://magrat.mine.nu:8088/geonetwork/">http://magrat.mine.nu:8088/geonetwork/</a></p>
+<img alt="_images/inicio.png" src="_images/inicio.png" />
+<p>Si la cuenta ya ha sido validada y confirmada mediante correo electronico,
+ingresar con el usuario y contraseña registrada en la solicitud de la cuenta.</p>
+<img alt="_images/loggin.png" src="_images/loggin.png" />
+<p>Cuando el inicio es exitoso, se muestra la página principal y se visualizarán
+las entradas recientes.</p>
+<img alt="_images/home.png" src="_images/home.png" />
+</div>
+<div class="section" id="crear-el-metadato-de-la-tabla-de-atributos">
+<h2>Crear el metadato de la tabla de atributos<a class="headerlink" href="#crear-el-metadato-de-la-tabla-de-atributos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Este metadato describe los campos de la tabla de atributos</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Todo metadato de atributos comienza con la <em>CDA_</em></p>
+</div>
+<p>Contribuir &gt; Añadir una nueva entrada</p>
+<img alt="_images/nueva_entrada.png" src="_images/nueva_entrada.png" />
+<ul class="simple">
+<li>Seleccionar <em>Cálogo de Features</em> en la columna de crear un conjunto de datos.</li>
+<li>Seleccionar <em>Plantilla para el catalogo de atributos</em></li>
+<li>Seleccionar En… el repositorio al cual pertenece</li>
+</ul>
+<p>dar clic en <em>Crear</em></p>
+<img alt="_images/crear_cda.png" src="_images/crear_cda.png" />
+<p>Aparecerá en la pantalla el formulario para crear el metadato, los campos a llenar
+son los siguientes:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Campo</th>
+<th class="head">Descripción</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Nombre</td>
+<td>Comienza con la sigla  <em>CDA_</em> seguido del nombre de la capa sin extensión ej: CDA_mercado_sobre_ruedas</td>
+</tr>
+<tr class="row-odd"><td>Alcance</td>
+<td>Describir en general la capa</td>
+</tr>
+<tr class="row-even"><td>Nombre individual</td>
+<td>Nombre de la persona que proporciono o generó el recurso</td>
+</tr>
+<tr class="row-odd"><td>Nombre de la organización</td>
+<td>Nombre de la organización o institución donde proviene el recurso</td>
+</tr>
+<tr class="row-even"><td>Nombre del cargo</td>
+<td>Describir el cargo o área en la que trabaja</td>
+</tr>
+<tr class="row-odd"><td>Ciudad</td>
+<td>Ciudad donde se ubica la organización</td>
+</tr>
+<tr class="row-even"><td>Área administrativa</td>
+<td>Alcaldía o municipio</td>
+</tr>
+<tr class="row-odd"><td>Código postal</td>
+<td>CP</td>
+</tr>
+<tr class="row-even"><td>País</td>
+<td>País de donde se ubica la organización</td>
+</tr>
+<tr class="row-odd"><td>Email</td>
+<td>Mail de la persona que proporcionó o generó el recurso</td>
+</tr>
+<tr class="row-even"><td>Rol</td>
+<td>Autor,Distribuidor, Guardían, Procesamiento, Propietrario, entre otros.</td>
+</tr>
+</tbody>
+</table>
+<img alt="_images/llenar_cda.png" src="_images/llenar_cda.png" />
+<div class="section" id="atributos">
+<h3>Atributos<a class="headerlink" href="#atributos" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>La parte de los atributos esta definida por la sección <em>Elements</em></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Campo</th>
+<th class="head">Descripción</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Member name</td>
+<td>Nombre</td>
+</tr>
+<tr class="row-odd"><td>Definition</td>
+<td>Descripción del campo especificando unidades si es que aplica</td>
+</tr>
+<tr class="row-even"><td>gco:lower</td>
+<td>Número o índice del campo en la tabla de atributos (comienza en cero)</td>
+</tr>
+<tr class="row-odd"><td>Tipo del nombre</td>
+<td>Tipo del campo (flotante,entero,texto, entre otros</td>
+</tr>
+</tbody>
+</table>
+<img alt="_images/elements.png" src="_images/elements.png" />
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p>Para agregar un elemento nuevo, clic sobre el botón + de  <em>Elements</em> y seleccionar <em>Atributte</em></p>
+<img alt="_images/nuevo_atributo.png" class="last" src="_images/nuevo_atributo.png" />
+</div>
+<p>Para finalizar y gardar el metadato dar clic en</p>
+<img alt="_images/guardar_cerrar.png" src="_images/guardar_cerrar.png" />
+</div>
+</div>
 </div>
 
 
@@ -155,6 +280,13 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="registro.html" class="btn btn-neutral float-left" title="Solicitud de cuenta" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
